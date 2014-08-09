@@ -17,7 +17,7 @@ win32 {
 }
 
 TEMPLATE = app
-TARGET = "Black Qt"
+TARGET = "black Qt"
 VERSION = 1.1.0.1
 INCLUDEPATH += src src/json src/qt src/tor
 QT += core gui network
@@ -406,7 +406,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = stealth-qt_test
+TARGET = black-qt_test
 DEFINES += BITCOIN_QT_TEST
 }
 
@@ -496,7 +496,7 @@ macx {
            -framework AppKit
    DEFINES += MAC_OSX MSG_NOSIGNAL=0
    ICON = src/qt/res/icons/bitcoin.icns
-   TARGET = "Stealth Qt"
+   TARGET = "Black Qt"
    QMAKE_CFLAGS_THREAD += -pthread
    QMAKE_LFLAGS_THREAD += -pthread
    QMAKE_CXXFLAGS_THREAD += -pthread
