@@ -45,7 +45,7 @@ static const int64 CIRCULATION_MONEY = MAX_MONEY;
 static const double TAX_PERCENTAGE = 0.00; //no tax
 static const int64 MAX_STEALTH_PROOF_OF_STAKE = 0.18 * COIN;	// 18% annual interest
 static const unsigned int CUTOFF_POW_BLOCK = 2880;
-static const unsigned int CUTOFF_POW_TIME = 1415125188; //wayy to far ahead
+static const unsigned int CUTOFF_POW_TIME = 1407866800; //wayy to far ahead
 
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 
