@@ -1,1 +1,1 @@
-Relay Token best coin ever!
+Black Token best coin ever!
